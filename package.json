@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "minecraft-player",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Minecraft player information.",
+	"repository": "https://github.com/Richienb/minecraft-player.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,8 +17,19 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
-	"dependencies": {},
+	"keywords": [
+		"mojang",
+		"minecraft",
+		"player",
+		"username",
+		"uuid",
+		"api"
+	],
+	"dependencies": {
+		"camelcase-keys": "^6.2.2",
+		"ky": "^0.20.0",
+		"ky-universal": "^0.6.0"
+	},
 	"devDependencies": {
 		"ava": "^3.8.1",
 		"eslint-config-richienb": "^0.4.2",

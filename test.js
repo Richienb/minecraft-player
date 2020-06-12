@@ -1,13 +1,8 @@
 const test = require("ava")
-const theModule = require(".")
+const minecraftPlayer = require(".")
 
-test("main", t => {
-	t.throws(() => {
-		theModule(123)
-	}, {
-		instanceOf: TypeError,
-		message: "Expected a string, got number"
-	})
+test("main", async t => {
+	const { uuid } = await minecraftPlayer("Notch")
 
-	t.is(theModule("unicorns"), "unicorns & rainbows")
+	t.is(uuid, "069a79f4-44e9-4726-a5be-fca90e38aaf5")
 })
