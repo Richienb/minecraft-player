@@ -1,6 +1,6 @@
 {
 	"name": "minecraft-player",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Minecraft player information.",
 	"repository": "https://github.com/Richienb/minecraft-player.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
