@@ -64,6 +64,6 @@ const minecraftPlayer = require("minecraft-player");
 })();
 ```
 */
-declare function minecraftPlayer(player: string): minecraftPlayer.ReturnValue
+declare function minecraftPlayer(player: string): Promise<minecraftPlayer.ReturnValue>
 
 export = minecraftPlayer
